@@ -4,7 +4,7 @@
 // So it can retun 'no' Middle name if the entry don't have on?
 
 //let name = "Ousmane Kaab Konate";
-let name = "Ousmane Konate";
+let name = "Ousmane Konate kaab";
 let firstName = getFirstName(name);
 let middleName = getMiddleName(name);
 let lastName = getLastName(name);

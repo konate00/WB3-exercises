@@ -1,17 +1,18 @@
 "use strict";
 
-let name = "Ousmane Konate";
-let firstName = getFirstName(name);
-let lastName = getLastName(name);
-function getFirstName(name){
-    let spaceBetweenName = name.indexOf(" ");
-    let firstName = name.substring(0, spaceBetweenName);
+let fullName = "Ousmane Konate";
+            
+let firstName = getFirstName(fullName);
+let lastName = getLastName(fullName);
+function getFirstName(fullName){
+    let spaceBetweenName = fullName.indexOf(" ");
+    let firstName = fullName.substring(0, spaceBetweenName);
     return firstName;
 }
 
-function getLastName(name){
-    let spaceBetweenName = name.indexOf(" ");
-    let lastName = name.substring(spaceBetweenName);
+function getLastName(fullName){
+    let spaceBetweenName = fullName.indexOf(" ");
+    let lastName = fullName.substring(spaceBetweenName);
     return lastName;
 }
 console.log(`First Name: ${firstName}`);
